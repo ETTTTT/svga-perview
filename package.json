@@ -1,0 +1,51 @@
+{
+	"name": "svga-perview",
+	"displayName": "svga perview",
+	"description": "hpstream、et",
+	"version": "0.0.1",
+	"publisher": "svga-perview",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCustomEditor:svga.preview"
+	],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"main": "./out/extension.js",
+	"contributes": {
+		"customEditors": [
+			{
+				"viewType": "svga.preview",
+				"displayName": "Paw Draw",
+				"selector": [
+					{
+						"filenamePattern": "*.svga"
+					}
+				]
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint . --ext .ts,.tsx",
+		"watch": "tsc -w -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"@types/vscode": "^1.46.0",
+		"@typescript-eslint/eslint-plugin": "^3.0.2",
+		"@typescript-eslint/parser": "^3.0.2",
+		"eslint": "^7.1.0",
+		"typescript": "^4.0.2"
+	},
+	"dependencies": {
+		"svga.lite": "^1.5.0"
+	}
+}
