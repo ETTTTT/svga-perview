@@ -1,12 +1,10 @@
 {
 	"name": "svga-perview",
 	"displayName": "svga perview",
-	"description": "hpstream、et",
-	"version": "0.0.1",
+	"description": "一款可以在vscode内播放svga的插件",
+	"version": "0.0.2",
+	"author":"hpstream、et_wl",
 	"publisher": "svga-perview",
-	"engines": {
-		"vscode": "^1.46.0"
-	},
 	"categories": [
 		"Other"
 	],
@@ -15,7 +13,11 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/ETTTTT/svga-perview"
+	},
+	"icon": "images/logo.png",
+	"engines": {
+		"vscode": "^1.46.0"
 	},
 	"main": "./out/extension.js",
 	"contributes": {
