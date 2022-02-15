@@ -1,7 +1,7 @@
 <!--
  * @Author: hpstream、et
  * @Date: 2021-01-19 17:20:12
- * @LastEditTime: 2022-02-15 15:36:38
+ * @LastEditTime: 2022-02-15 15:38:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /custom-editor-sample/README.md
@@ -17,4 +17,4 @@
 
 ### demo
 
-<img src='./images/demo.gif'>
+![](./images/demo.gif)
