@@ -2,8 +2,8 @@
 	"name": "svga-perview",
 	"displayName": "svga perview",
 	"description": "一款可以在vscode内播放svga的插件",
-	"version": "0.0.9",
-	"author":"hpstream、et_wl",
+	"version": "0.1.0",
+	"author": "hpstream、et_wl",
 	"publisher": "svga-perview",
 	"categories": [
 		"Other"
