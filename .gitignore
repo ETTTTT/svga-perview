@@ -1,0 +1,11 @@
+.idea/
+.DS_Store
+*.env
+*.project
+.vscode/
+node_modules/
+package-lock.json
+yarn.lock
+build/
+*.env.js
+.cache
